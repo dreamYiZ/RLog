@@ -1,6 +1,6 @@
 {
-  "name": "rlog",
-  "version": "1.0.0",
+  "name": "rentoo",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/dreamYiZ/RLog/issues"
   },
-  "homepage": "https://github.com/dreamYiZ/RLog#readme"
+  "homepage": "https://github.com/dreamYiZ/RLog#readme",
+  "type": "module"
 }
