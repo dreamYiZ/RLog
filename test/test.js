@@ -1,4 +1,4 @@
-import RLog from './index.js';
+import RLog from '../src/index.js';
 
 
 // console.log(RLog({}));
