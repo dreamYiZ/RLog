@@ -8,7 +8,7 @@ function RLog(...args) {
     return RLog;
   }
 
-  console.log(args);
+  console.log(...args);
 
   return RLog;
 }
