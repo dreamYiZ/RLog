@@ -1,15 +1,11 @@
-import RLog from '../src/index.js';
+import RLog,{disableRLog, enableRLog} from "../src/index.js";
 
+let a = { a: 2 };
+let b = [1, 2, 3, 4, 5, 6];
+let c = 4;
 
-// console.log(RLog({}));
-// RLog({})([]);
-// RLog();
-
-let obj = {
-    a: 1,   
-    b: 2    
-};
-
-let arr = [1,2,3];
-
-RLog(obj)(obj)(arr, arr, 4);
+disableRLog();
+enableRLog();
+disableRLog();
+// RLog(a, b, c)(a)(b)(c)()();
+RLog(a, b, c)(a)(b)(c)()();

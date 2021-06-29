@@ -1,0 +1,58 @@
+Arguments: 
+  E:\node\node.exe C:\Users\admin\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js test
+
+PATH: 
+  C:\Program Files\Google\Chrome\Application;C:\Python27\;C:\Python27\Scripts;C:\Python39\Scripts\;C:\Python39\;E:\Anaconda3-5.2.0;E:\Anaconda3-5.2.0\Library\mingw-w64\bin;E:\Anaconda3-5.2.0\Library\usr\bin;E:\Anaconda3-5.2.0\Library\bin;E:\Anaconda3-5.2.0\Scripts;E:\Anaconda3;E:\Anaconda3\Library\mingw-w64\bin;E:\Anaconda3\Library\usr\bin;E:\Anaconda3\Library\bin;E:\Anaconda3\Scripts;E:\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\gradle-5.6\bin;E:\scala\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\mingw64\bin;C:\TDM-GCC-64\bin;D:\apache-ant-1.10.9\bin;E:\node\;C:\ProgramData\chocolatey\bin;E:\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;D:\dev\ffmpeg-N-102790-g947122f111-win64-gpl\bin;D:\Program Files\Go\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Roaming\npm;D:\Programs\Microsoft VS Code\bin;C:\Users\admin\AppData\Local\GitHubDesktop\bin;D:\Program Files (x86)\GitHub CLI\;D:\Program Files\JetBrains\PyCharm Community Edition 2021.1.2\bin;;C:\Users\admin\go\bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.2.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: D:\GitHub\RLog\package.json: Unexpected token } in JSON at position 185
+      at JSON.parse (<anonymous>)
+      at C:\Users\admin\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\admin\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\admin\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "rentoo",
+    "version": "1.0.4",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+      "test": " node --inspect test/test.js",
+      "build": "babel src -d lib",
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dreamYiZ/RLog.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/dreamYiZ/RLog/issues"
+    },
+    "homepage": "https://github.com/dreamYiZ/RLog#readme",
+    "type": "module",
+    "devDependencies": {
+      "@babel/cli": "^7.14.5",
+      "@babel/core": "^7.14.6",
+      "@babel/preset-env": "^7.14.7",
+      "mocha": "^9.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

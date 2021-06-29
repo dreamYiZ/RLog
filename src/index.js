@@ -1,16 +1,26 @@
-function RLog(...args) {
+let disable = false;
 
-  
+function RLog(...args) {
   if (args.length > 1) {
     for (let v of args) {
-        RLog(v);
+      RLog(v);
     }
     return RLog;
   }
 
-  console.log(...args);
+  disable || console.log(...args);
 
   return RLog;
 }
+
+function disableRLog() {
+  disable = true;
+}
+
+function enableRLog() {
+  disable = false;
+}
+
+export { disableRLog, enableRLog };
 
 export default RLog;
