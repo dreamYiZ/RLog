@@ -21,6 +21,7 @@ function enableRLog() {
   disable = false;
 }
 
-export { disableRLog, enableRLog };
 
-export default RLog;
+module.exports =RLog;
+module.exports.disableRLog = disableRLog;
+module.exports.enableRLog = enableRLog;
