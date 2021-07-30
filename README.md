@@ -7,7 +7,9 @@ a module about log like console.log but is not only console.log
 ## install
 
 yarn add rentoo
+
 or:
+
 npm install rentoo
 ## Example
 
